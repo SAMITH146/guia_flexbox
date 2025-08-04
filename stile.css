@@ -1,3 +1,4 @@
+@import url(css/nav.css);
 * {
     margin: 0;
     padding: 0;
@@ -10,35 +11,4 @@ body {
     color: #ffffff;
     line-height: 1.6;
     padding: 20px;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #000000;
-    padding: 1rem 2rem;
-    color: #fff;
-}
-.nav_logo,img{
-   width: 90px;
-   height: 90px;
-}
-
-.nav_menu {
-    display: flex;
-    /* Activar módulo flex en la lista */
-    gap: 2rem;
-    /* Separar ítems horizontalmente */
-    list-style: none;
-}
-
-.nav_item ,a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-.nav_item ,a:hover {
-  color: #ffff14;
 }

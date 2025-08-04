@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    
+}
+.nav, h1 {
+    color: #26e6d6;
+}
+.nav_logo,img{
+   width: 90px;
+   height: 90px;
+}
+
+.nav_menu {
+    display: flex;
+    /* Activar módulo flex en la lista */
+    gap: 2rem;
+    /* Separar ítems horizontalmente */
+    list-style: none;
+}
+
+.nav_item ,a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav_item ,a:hover {
+  color: #ffff14;
+}
