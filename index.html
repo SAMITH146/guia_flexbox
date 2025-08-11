@@ -21,22 +21,40 @@
     </nav>
     <!-- 2. Tarjeta de producto -->
     <div class="product-card">
-        <h1>Speedster X1</h1>
-        <img src="Galeria_imagen/logo_st/card_imagen/card_sport.png" alt="Producto" class="product-card__image" />
-        <p class="product-card__description">
-            Motor: V8 de 500 HP
-            Aceleración: 0 a 100 km/h en 3.5 segundos
-            Transmisión: Automática de 7 velocidades
-            Tracción: Integral para un manejo superior
-            Tecnología: Pantalla táctil de 12 pulgadas con conectividad Bluetooth y navegación GPS
-            Seguridad: Sistema avanzado de frenos y múltiples airbags
-            Colores Disponibles: Rojo, Negro, Azul Metálico
-
-            Precio: $120,000
-
-            ¡Siente la adrenalina y lleva tu experiencia de conducción al siguiente nivel con el Speedster X1!</p>
+        <h2>Speedster X1</h2>
+        <div  class="product-card__image" >
+            <img src="Galeria_imagen/logo_st/card_imagen/card_sport.png" alt="Producto"/>
+        </div>
+        <div class="product-card__description">
+            <p class="product-card__description-text">
+           Motor V8 turbo con 700 HP, aceleración 0-100 km/h en 3.2s, tecnología de punta y diseño aerodinámico agresivo.</p>
+        </div>
         <button class="product-card__button">Comprar ahora</button>
     </div>
-</body>
+     <!-- 3. Galería de imágenes -->
+  <div class="gallery">
+    <img src="Galeria_imagen/img-galeria/moto2.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto3.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto4.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto5.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto6.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto7.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto8.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto9.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto10.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto11.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto12.jpg" class="gallery__image" />
+    <img src="Galeria_imagen/img-galeria/moto13.jpg" class="gallery__image" />
+  </div>
+
+<!-- 4. Formulario de contacto -->
+  <form class="contact-form">
+    <div class="contact-form__row">
+      <input type="text" placeholder="Nombre" class="contact-form__input" />
+      <input type="email" placeholder="Correo electrónico" class="contact-form__input" />
+    </div>
+    <textarea class="contact-form__textarea" placeholder="Escribe tu mensaje..."></textarea>
+    <button class="contact-form__button">Enviar</button>
+  </form>
 
 </html>

@@ -1,5 +1,7 @@
 @import url(css/nav.css);
 @import url(css/card.css);
+@import url(css/galeria.css);
+@import url(css/formulario.css);
 * {
     margin: 0;
     padding: 0;
