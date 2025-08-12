@@ -1,0 +1,16 @@
+/* 10. Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  background: #eeeeee;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.sidebar__item {
+  padding: 0.5rem;
+  background: #d7ccc8;
+  border-radius: 4px;
+  text-align: center;
+}

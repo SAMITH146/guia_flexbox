@@ -9,29 +9,43 @@
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="nav_logo"> <img src="Galeria_imagen/logo_st/logo/logo_samith.png" alt="logo_samith"></div>
-        <h1>Modulo Flexbox</h1>
-        <ul class="nav_menu">
-            <li clas="nav_item"><a href="#"> Inicio</a></li>
-            <li clas="nav_item"><a href="#"> Servicio</a></li>
-            <li clas="nav_item"><a href="#"> Contacto</a></li>
 
-        </ul>
-    </nav>
-    <!-- 2. Tarjeta de producto -->
-    <div class="product-card">
-        <h2>Speedster X1</h2>
-        <div  class="product-card__image" >
-            <img src="Galeria_imagen/logo_st/card_imagen/card_sport.png" alt="Producto"/>
-        </div>
-        <div class="product-card__description">
-            <p class="product-card__description-text">
-           Motor V8 turbo con 700 HP, aceleración 0-100 km/h en 3.2s, tecnología de punta y diseño aerodinámico agresivo.</p>
-        </div>
-        <button class="product-card__button">Comprar ahora</button>
+  <!-- 1. Barra de navegación -->
+  <nav class="nav">
+    <div class="nav_logo">
+      <img src="Galeria_imagen/logo_st/logo/logo_samith.png" alt="logo_samith">
     </div>
-     <!-- 3. Galería de imágenes -->
+    <h1>Modulo Flexbox</h1>
+    <ul class="nav_menu">
+      <li clas="nav_item"><a href="#">Inicio</a></li>
+      <li clas="nav_item"><a href="#">Servicio</a></li>
+      <li clas="nav_item"><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- 5. Encabezado de sección -->
+  <div class="section-header">
+    <span class="section-header__icon">
+      <img src="Galeria_imagen/logo_st/logo/logo_samith.png" alt="">
+    </span>
+    <h2 class="section-header__title">Este es el titulo de selecion</h2>
+  </div>
+
+  <!-- 2. Tarjeta de producto -->
+  <div class="product-card">
+    <h2>Speedster X1</h2>
+    <div class="product-card__image">
+      <img src="Galeria_imagen/logo_st/card_imagen/card_sport.png" alt="Producto" />
+    </div>
+    <div class="product-card__description">
+      <p class="product-card__description-text">
+        Motor V8 turbo con 700 HP, aceleración 0-100 km/h en 3.2s, tecnología de punta y diseño aerodinámico agresivo.
+      </p>
+    </div>
+    <button class="product-card__button">Comprar ahora</button>
+  </div>
+
+  <!-- 3. Galería de imágenes -->
   <div class="gallery">
     <img src="Galeria_imagen/img-galeria/moto2.jpg" class="gallery__image" />
     <img src="Galeria_imagen/img-galeria/moto3.jpg" class="gallery__image" />
@@ -47,7 +61,27 @@
     <img src="Galeria_imagen/img-galeria/moto13.jpg" class="gallery__image" />
   </div>
 
-<!-- 4. Formulario de contacto -->
+  <!-- 6. Lista de tareas -->
+  <ul class="task-list">
+    <li class="task-list__item">Tarea 1</li>
+    <li class="task-list__item">Tarea 2</li>
+    <li class="task-list__item">Tarea 3</li>
+  </ul>
+
+  <!-- 7. Testimonial -->
+  <div class="testimonial">
+    <img src="Galeria_imagen/logo_st/logo/logo_samith.png" class="testimonial__avatar" />
+    <p class="testimonial__text">Este servicio superó mis expectativas.</p>
+  </div>
+
+  <!-- 9. Sección de precios -->
+  <section class="pricing">
+    <div class="pricing__card">Plan Básico $20.000</div>
+    <div class="pricing__card">Plan Medio $70.000</div>
+    <div class="pricing__card">Plan Premium 200.000</div>
+  </section>
+
+  <!-- 4. Formulario de contacto -->
   <form class="contact-form">
     <div class="contact-form__row">
       <input type="text" placeholder="Nombre" class="contact-form__input" />
@@ -57,4 +91,18 @@
     <button class="contact-form__button">Enviar</button>
   </form>
 
-</html>
+  <!-- 10. Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar__item">Inicio</div>
+    <div class="sidebar__item">Perfil</div>
+    <div class="sidebar__item">Ajustes</div>
+  </aside>
+
+  <!-- 8. Footer -->
+  <footer class="footer">
+    <div class="footer__column">Acerca de</div>
+    <div class="footer__column">Enlaces</div>
+    <div class="footer__column">Redes sociales</div>
+  </footer>
+
+</body>

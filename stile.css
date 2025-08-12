@@ -2,6 +2,12 @@
 @import url(css/card.css);
 @import url(css/galeria.css);
 @import url(css/formulario.css);
+@import url(css/encabezado.css);
+@import url(css/lista_areas.css);
+@import url(css/testimonial.css);
+@import url(css/footer.css);
+@import url(css/seciion_precios.css);
+@import url(css/sidebear.css);
 * {
     margin: 0;
     padding: 0;

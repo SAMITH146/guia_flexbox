@@ -1,0 +1,17 @@
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fce4ec;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+.testimonial__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.testimonial__text {
+  font-style: italic;
+}
